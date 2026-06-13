@@ -6,7 +6,7 @@ class TestCalculator:
         self.calc = Calculator()
 
     def test_add(self):
-        assert self.calc.add(2, 3) == 99
+        assert self.calc.add(2, 3) == 5
         assert self.calc.add(-1, 1) == 0
 
     def test_subtract(self):
