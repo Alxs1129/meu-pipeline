@@ -13,3 +13,4 @@ class Calculator:
             raise ValueError("Cannot divide by zero")
         return a / b
 # Demonstração em sala de aula
+# Demonstração em sala de aula - teste 2
