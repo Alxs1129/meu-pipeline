@@ -25,3 +25,4 @@ class TestCalculator:
         with pytest.raises(ValueError):
             self.calc.divide(10, 0)
 # Lab 3 - demo
+# Lab 3 - demo
