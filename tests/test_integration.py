@@ -9,7 +9,7 @@ class TestIntegration:
 
     def test_database_connection(self):
         result = self.db.connect()
-        assert result == "FALHA_DEMO"
+        assert result == "Connected to database"
         assert self.db.connected is True
 
     def test_database_query(self):
